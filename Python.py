@@ -153,3 +153,91 @@ name3.strip()
 
 
 
+
+# In[ ]:
+
+
+Introduction to list datatype:
+    Defination: A list is a collection of items declared in a particular order.
+    Classification: It is classified as a multable datatype.
+    How to define / declared the list dataypes...[]
+
+
+# In[3]:
+
+
+students=["Mustafa","Neha","Namrata","Sakshi"]
+print(students)
+type(students)
+print(students[1])
+print(students[2].title())
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+Introduction to indexing:
+
+
+# In[4]:
+
+
+1. How to add new elements to the list.
+2. How to Modify the elements to the list.
+3. How to delete an element form a list.
+
+
+# In[5]:
+
+
+students.append("Naman")
+print(students)
+
+
+# In[7]:
+
+
+students.insert(5,"Jyoti")
+print(students)
+
+
+# In[8]:
+
+
+students.modify(2,"Joel")
+print(students)
+
+
+# In[9]:
+
+
+students[1]="Joel"
+print(students)
+
+
+# In[10]:
+
+
+del students[5]
+print(students)
+
+
+# In[11]:
+
+
+x=students.pop(2)
+print(students)
+print(x)
+
+
+# In[ ]:
+
+
+
+
